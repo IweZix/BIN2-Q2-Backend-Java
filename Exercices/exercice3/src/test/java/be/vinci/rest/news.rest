@@ -1,0 +1,57 @@
+@baseUrl = http://localhost:8080
+
+
+### Read All news
+GET {{baseUrl}}/news
+
+### Login the default user
+POST {{baseUrl}}/auths/login
+Content-Type: application/json
+
+{
+  "login":"james",
+  "password":"password"
+}
+
+> {%
+    client.global.set("jamesToken", response.body.token);
+%}
+
+### Create One news
+POST {{baseUrl}}/news
+Content-Type: application/json
+Authorization: {{jamesToken}}
+
+{
+  "titre": "news",
+  "description": "news",
+  "contenu": "news",
+  "position": 1,
+  "status": "published"
+}
+
+### Update One news
+PUT {{baseUrl}}/news/1
+Content-Type: application/json
+Authorization: {{jamesToken}}
+
+{
+  "titre": "newsUpdate",
+  "description": "newsUpdate",
+  "contenu": "newsUpdate",
+  "position": 1
+}
+
+### Delete One news
+DELETE {{baseUrl}}/news/1
+Content-Type: application/json
+Authorization: {{jamesToken}}
+
+
+### Associate a news to a page
+PUT {{baseUrl}}/news/associate/1/1
+Authorization: {{jamesToken}}
+
+
+### Get all news associated to a page
+GET {{baseUrl}}/news/allFromPage/1

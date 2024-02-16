@@ -1,0 +1,54 @@
+@baseUrl = http://localhost:8080
+
+
+### Read All texts
+GET {{baseUrl}}/texts
+
+### Get text by level
+GET {{baseUrl}}/texts?level=easy
+
+### Get one text
+GET {{baseUrl}}/texts/1
+
+### Create one text
+POST {{baseUrl}}/texts
+Content-Type: application/json
+
+{
+  "content": "test1",
+  "level": "easy"
+}
+
+### Delete one text
+DELETE {{baseUrl}}/texts/5
+Content-Type: application/json
+
+### Update one text
+PUT {{baseUrl}}/texts/1
+Content-Type: application/json
+
+{
+  "content": "test modification",
+  "level": "medium"
+}
+
+
+
+
+### Create one text with bad level
+POST {{baseUrl}}/texts
+Content-Type: application/json
+
+{
+  "content": "Impossible",
+  "level": "extreme"
+}
+
+### Update one text with bad level
+PUT {{baseUrl}}/texts/1
+Content-Type: application/json
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}

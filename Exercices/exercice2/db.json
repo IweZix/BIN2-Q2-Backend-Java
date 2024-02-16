@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "james",
+      "password": "$2a$10$Ic18ga9dUrmr/QnR.JnksOBr3JcMIQyyBKlutDBNRbb/O73rlifpS"
+    }
+  ],
+  "pages": [
+    {
+      "id": 4,
+      "author": 2,
+      "title": "Page 1",
+      "content": "page1",
+      "status": "hidden",
+      "uri": "page1"
+    },
+    {
+      "id": 3,
+      "author": 1,
+      "title": "update",
+      "content": "update",
+      "status": "update",
+      "uri": "update"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "content": "this is a very easy text",
+    "level": "easy"
+  },
+  {
+    "id": 3,
+    "content": "this is a medium and magical text @here",
+    "level": "medium"
+  },
+  {
+    "id": 3,
+    "content": "&lt;img src='#' onerror='alert(66666)'&gt;",
+    "level": "hard"
+  },
+  {
+    "id": 4,
+    "content": "&lt;img src='#' onerror='alert(66666)'&gt;",
+    "level": "hard"
+  }
+]

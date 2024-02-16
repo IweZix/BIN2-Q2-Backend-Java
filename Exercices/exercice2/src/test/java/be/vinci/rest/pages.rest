@@ -1,0 +1,61 @@
+@baseUrl = http://localhost:8080
+
+
+### Read All films
+GET {{baseUrl}}/pages
+
+### Read one page by id
+GET {{baseUrl}}/pages/1
+
+
+### Login the default user
+POST {{baseUrl}}/auths/login
+Content-Type: application/json
+
+{
+  "login":"james",
+  "password":"password"
+}
+
+> {%
+    client.global.set("jamesToken", response.body.token);
+%}
+
+
+### Read All films
+GET {{baseUrl}}/pages
+Authorization: {{jamesToken}}
+
+### Read one page by id
+GET {{baseUrl}}/pages/1
+Authorization: {{jamesToken}}
+
+
+### Create One page
+POST {{baseUrl}}/pages
+Content-Type: application/json
+Authorization: {{jamesToken}}
+
+{
+  "title": "Page 1",
+  "uri": "page1",
+  "content": "page1",
+  "status": "hidden"
+}
+
+### Delete one page by id
+DELETE {{baseUrl}}/pages/1
+Content-Type: application/json
+Authorization: {{jamesToken}}
+
+### Update one page by id
+PUT {{baseUrl}}/pages/3
+Content-Type: application/json
+Authorization: {{jamesToken}}
+
+{
+  "title": "update",
+  "uri": "update",
+  "content": "update",
+  "status": "update"
+}

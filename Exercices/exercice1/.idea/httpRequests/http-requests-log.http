@@ -1,0 +1,574 @@
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210248.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "medium"
+}
+
+<> 2024-01-29T210246.200.json
+
+###
+
+DELETE http://localhost:8080/texts/5
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210243.200.json
+
+###
+
+POST http://localhost:8080/texts
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test1",
+  "level": "easy"
+}
+
+<> 2024-01-29T210239.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210237.200.json
+
+###
+
+GET http://localhost:8080/texts?level=easy
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210234.200.json
+
+###
+
+POST http://localhost:8080/texts
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test1",
+  "level": "easy"
+}
+
+<> 2024-01-29T210231.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T210215.400.txt
+
+###
+
+GET http://localhost:8080/texts?level=easy
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210211.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210210.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "medium"
+}
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210129.200.json
+
+###
+
+DELETE http://localhost:8080/texts/5
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210125.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210115.200.json
+
+###
+
+POST http://localhost:8080/texts
+Content-Type: application/json
+Content-Length: 43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test1",
+  "level": "easy"
+}
+
+<> 2024-01-29T210113.200.json
+
+###
+
+GET http://localhost:8080/texts/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210101.200.json
+
+###
+
+GET http://localhost:8080/texts/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210045.404.txt
+
+###
+
+GET http://localhost:8080/texts/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T210010.404.txt
+
+###
+
+GET http://localhost:8080/texts?level=easy
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205952.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205924.200.json
+
+###
+
+GET http://localhost:8080/texts/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205855.404.txt
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205848.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205814.400.txt
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205813.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205749.400.txt
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205748.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205715.400.txt
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205714.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205636.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205616.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205439.400.txt
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205438.200.json
+
+###
+
+GET http://localhost:8080/texts/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205305.404.txt
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205304.400.txt
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205302.200.json
+
+###
+
+GET http://localhost:8080/texts/2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205213.404.txt
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205201.400.txt
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205143.400.txt
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205057.400.txt
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205052.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T205048.400.txt
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T205047.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T204832.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T204722.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T204340.200.json
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T204325.200.json
+
+###
+
+PUT http://localhost:8080/texts/1
+Content-Type: application/json
+Content-Length: 58
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "test modification",
+  "level": "extreme"
+}
+
+<> 2024-01-29T204051.400.txt
+
+###
+
+GET http://localhost:8080/texts
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-29T204034.200.json
+
+###
+
+POST http://localhost:8080/texts
+Content-Type: application/json
+Content-Length: 51
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "content": "Impossible",
+  "level": "extreme"
+}
+
+<> 2024-01-29T203955.400.txt
+
+###
+
